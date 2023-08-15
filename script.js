@@ -23,7 +23,7 @@ function appendWow() {
 }
 
 function handleScroll() {
-    if (window.scrollY > 30) {
+    if (window.scrollY >0) {
         appendText();
         appendWow();
     }
