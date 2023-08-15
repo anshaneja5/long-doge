@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    padding-top: 60vh;
+    margin: 0 auto;
+    width: 250px;
+}
+.heading1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: fixed;
+    /* margin-bottom: 10px; */
+    font-family: "Gloria Hallelujah", sans-serif;
+    /* line-height: 0.3rem; */
+}
+.heading2{
+    font-size: 2rem;
+    font-weight: 700;
+    /* margin-left: 1rem; */
+    margin-top: .5rem;
+    position: fixed;
+    display: inline-block;
+    font-family: "Gloria Hallelujah", sans-serif;
+}
+.dy-text{
+    font-size: 2rem;
+    font-weight: 700;
+    /* margin-left: 1rem; */
+    margin-top: 2.5rem;
+    position: fixed;
+    display: inline-block;
+    font-family: "Gloria Hallelujah", sans-serif;
+}
+pre{
+    margin: 0;
+}
+.wawo{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    /* margin-left: 1rem; */
+    /* margin-top: 2.5rem; */
+    /* position: fixed; */
+    /* display: inline-block; */
+    font-family: "Gloria Hallelujah", sans-serif;
+}
+@media (max-width:350px){
+    .heading1{
+        font-size: 2rem;
+    }
+    .heading2{
+        font-size: 1.2rem;
+    }
+    .dy-text{
+        font-size: 1.2rem;
+    }
+}
