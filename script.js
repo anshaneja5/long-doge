@@ -13,9 +13,9 @@ function appendText() {
     doge.appendChild(newPre);
 }
 
-window.addEventListener('scroll', () => {
+document.addEventListener('scroll', () => {
     // Define the condition for appending text (e.g., scroll position)
-    if (window.scrollY > 30) { // Adjust the scroll threshold as needed
+    if (document.scrollY > 30) { // Adjust the scroll threshold as needed
         appendText();
         appendwow();
     }
